@@ -1,0 +1,123 @@
+body {
+
+    margin:  0 auto;
+    background-color: rgba(0, 128, 0, 0.096);
+    background-image: url(https://images.pexels.com/photos/6485437/pexels-photo-6485437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   
+}
+
+.band {
+    margin: auto;
+    background-color: transparent;
+    background-image: url(https://images.pexels.com/photos/4636786/pexels-photo-4636786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 1500px;
+    height:300px;
+}
+
+.row {
+ background-color: rgba(158, 75, 130, 0.548);
+}
+  
+h1,
+  
+h2,
+
+h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {font-family: 'Abril Fatface', cursive;
+    font-size: 96px;
+    color: antiquewhite;
+  }
+  
+  h2 
+{
+  font-family: 'Abril Fatface', cursive;
+  color: blanchedalmond;
+    display: block;
+    margin: 40px auto 0 auto;
+    font-size: 48px;
+  }
+  
+  h3 {font-family: 'Pathway Gothic One', sans-serif;
+    color: blanchedalmond;
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  h5 {color: blanchedalmond;
+    font-family: 'Pathway Gothic One', sans-serif;
+   
+    font-size: 50px;
+  }
+  
+  p {font-family: 'Pathway Gothic One', sans-serif;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    font-size: 27px;
+    line-height: 1.5;
+  }
+
+  .navbar {
+      font-size:22px;
+    font-family: 'Pathway Gothic One', sans-serif; 
+    
+   
+  }
+  @media screen and (max-width :770px) {
+    .img-fluid.index {
+      display: none;
+    }
+  h1 {text-align: center;
+    font-size: 60px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  h3 {text-align: center;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  
+  h5 {text-align: center;
+    font-size: 30px;
+  }
+  a {
+    display: block;
+    text-align: center;
+}
+ p {
+   font-size: 13px;
+ }
+  }
+
+  .row.image {
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+    margin: 25px auto 0;
+      width: 85%;
+      height: 400px;
+      background-color: aliceblue;
+  }
+
+  .row.lang {
+      margin: 0 auto 25px auto;
+
+    background-color: aliceblue;  
+    width: 85%;
+  }
+
+  .langimg {
+    margin: 0  auto;
+
+      width: 20%;
+      height: auto;
+      display: block;
+      padding-bottom: 20px;
+  }
